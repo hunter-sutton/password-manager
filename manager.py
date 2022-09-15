@@ -3,7 +3,6 @@
 # Description: This program is a password manager that stores passwords in an encrypted file.
 
 import json
-import tkinter as tk
 
 validCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-=,./<>?;\':\"[]{}\|\`~"
 
@@ -121,8 +120,8 @@ def findResults(string):
 
 # RETRIEVE LOGIN
 # Parameters: none
-# Returns: login information for the websites
-# Description: This function retrieves login information from the loginInformation.json file if it exists.
+# Returns: none
+# Description: This function retrieves login information for website(s) which contain the string that the user entered.
 def retrieveLogin():
     websiteSearch = input("Enter a website to retrieve login information for: ")
     likelyWebsites = findResults(websiteSearch)
@@ -262,10 +261,8 @@ def introduction():
         introduction();
 
 def main():
-    initiateFile();
-    introduction();
-    #window = tk.Tk()
-    #window.mainloop()
+    initiateFile()
+    introduction()
 
 if (__name__ == "__main__"):
     main()
