@@ -3,7 +3,7 @@
 ## Description
 This applicaton is meant to act as a CLI Password Manager. The program uses very rudimentary encryption and should not be used with security as your goal.
 
-## JSON Structure
+## JSON Structure of loginInformation.txt
 ```
 {
     "website_name": {
