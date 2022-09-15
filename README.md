@@ -11,6 +11,7 @@ This applicaton is meant to act as a CLI Password Manager. The program uses very
         "password": "passwordValue"
     }
 }
+```
 
 ## TO DO
 
