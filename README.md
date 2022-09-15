@@ -15,5 +15,5 @@ This applicaton is meant to act as a CLI Password Manager. The program uses very
 
 ## TO DO
 
-[ ] More sophisticated encryption.
-[ ] GUI, probably using Tkinter.
+- [ ] More sophisticated encryption.
+- [ ] GUI, probably using Tkinter.
